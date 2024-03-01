@@ -53,8 +53,8 @@ export const getAllResidencies = asyncHandler(async(req, res) => {
     res.send(residencies);
 });
 
-// Get Specific Listing
 
+// Get Specific Listing
 export const getResidency = asyncHandler(async (req, res) => {
     const {id} = req.params;
 
